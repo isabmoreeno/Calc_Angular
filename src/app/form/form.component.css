@@ -9,7 +9,7 @@ form {
     width: 300px;
 }
 
-input {
+input, label {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

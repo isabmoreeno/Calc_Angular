@@ -8,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class FormComponent {
 
+    num1: number = 0;
+    num2: number = 0;
+    sum : number = 0;
+
+
+   onClickSum(){
+      this.sum = this.num1 + this.num2;
+   } 
+
+
+
 }
