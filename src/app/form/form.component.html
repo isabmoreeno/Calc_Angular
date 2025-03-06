@@ -1,11 +1,14 @@
 <form>
    <input type="number" [(ngModel)]="num1"  name="num1">
    <input type="number" [(ngModel)]="num2"  name="num2">
-   <button (click)="onClickSum()">Somar</button>
-   <button (click)="onClickSum()">1</button>
-   <button (click)="onClickSum()">2</button>
-   <button (click)="onClickSum()">3</button>
-   <button (click)="onClickSum()">4</button>
-   <button (click)="onClickSum()">5</button>
-   <label>{{sum}}</label>
+   <div class="button-container">
+   <button (click)="somar()">Somar</button>
+   <button (click)="subtrair()">Subtrair</button>
+   <button (click)="dividir()">Dividir</button>
+   <button (click)="multiplicar()">Multiplicar</button>
+   <button (click)="potencia()">Potenciação</button>
+   <button (click)="raiz()">Radiciação </button>
+   </div>
+   <label>{{resul}}</label>
+
 </form>
